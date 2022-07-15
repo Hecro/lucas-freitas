@@ -12,7 +12,21 @@ a {
 body {
     background: #0b0510;
     font-family: 'Jetbrains Mono', sans-serif;
-    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background: #8d56e5
+}
+
+::-webkit-scrollbar-thumb {
+    width: 4px;
+    border-radius: 20px;
+    background: #a77eeb;
 }
 
 .container {
