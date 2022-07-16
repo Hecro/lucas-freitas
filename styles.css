@@ -9,6 +9,10 @@ a {
     color:#eee5fc;
 }
 
+::selection {
+    color: #d5bff8;
+}
+
 body {
     background: #0b0510;
     font-family: 'Jetbrains Mono', sans-serif;
